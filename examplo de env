@@ -1,0 +1,31 @@
+Examplo do .env criado no frontEnd e no mobile crie um e faça as modificações
+BASE_URL= 'Seu Ip aqui ou Localhost com a porta usada no seu backend'
+
+
+Examplo do .env criado no backend
+
+NODE_ENV=development <= qual versão do projeto você esta usando no caso so existe a development
+BASIC_URL='Seu ip ou Local host'
+
+//Auth
+TOKEN_SECRET='Sua chave que sera usado nos seus tokens'
+
+
+// Database 
+DB_HOST='Ip do seu servidor no docker'
+DB_PORT='Porta que que o docker do mysql usa'
+DB_USER='Usuario criado ou o root'
+DB_PASS='Senha do banco de dados criado'
+DB_NAME='Nome do banco de dados criado' examplo:Fastfeet
+
+
+//Mail
+MAIL_HOST='Host do NodeMailer'
+MAIL_PORT='Porta do NodeMailer'
+MAIL_USER='Usuario do NodeMailer
+MAIL_PASSWORD='Senha do NodeMailer'
+
+
+//Redis
+REDIS_HOST:'Ip do seu servidor Redis no docker'
+REDIS_PORT:'Porta usada no seu servidor'
